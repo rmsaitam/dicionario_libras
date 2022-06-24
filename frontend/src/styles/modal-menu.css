@@ -1,0 +1,52 @@
+.menu-container {
+    width: 400px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.login span {
+    font-family: 'Alata', sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 20px;
+    color: black;
+    padding: 10px;
+}
+
+.loginBtn {
+    padding: 10px;
+    width: 300px;
+    background-color: #DDDEFF;
+}
+
+.loginBtn:hover {
+    cursor: pointer;
+    background-color: #696df6;
+}
+
+.painelBtn {
+    padding: 10px;
+    width: 300px;
+    background-color: #E5E5E5;
+    border: solid 1px black;
+}
+
+.painel span {
+    font-family: 'Alata', sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 20px;
+    color: black;
+    padding: 10px;
+}
+
+
+.painelBtn:hover {
+    cursor: pointer;
+    background-color: #FB3640;
+}

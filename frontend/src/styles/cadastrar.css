@@ -1,0 +1,181 @@
+.titleCadastro {
+    font-size: 53px;
+    font-family: 'Alata', sans-serif;
+    color: #FFFFFF;
+    line-height: 110px;
+}
+
+.cadastroqry {
+    min-width: 450px;
+    min-height: 150px;
+    max-height: 200px;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 10px;
+    background-color: #696df6;
+    text-align: center;
+    /*z-index: 10;*/
+    flex: 1;
+    align-items: center;
+    border-radius: 12px;
+}
+
+.form {
+    margin-left: 50px;
+    margin-right: 50px;
+
+    min-width: 420px;
+    max-width: 1800px;
+    min-height: 750px;
+    max-height: 1750px;
+    background-color: #DDDEFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input {
+    padding: 15px;
+    max-width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.input-articulacao {
+    padding: 15px;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-articulacao input {
+    border-radius: 12px;
+    width: 400px;
+    height: 57px;
+    font-size: 30px;
+    font-family: 'Alata', sans-serif;
+    outline: none;
+    border: none;
+}
+
+.input-articulacao select {
+    border-radius: 12px;
+    width: 400px;
+    height: 57px;
+    font-size: 30px;
+    font-family: 'Alata', sans-serif;
+    outline: none;
+    border: none;
+    margin-bottom: 10px;
+}
+
+.input input {
+    border-radius: 12px;
+    width: 400px;
+    height: 57px;
+    font-size: 30px;
+    font-family: 'Alata', sans-serif;
+    outline: none;
+    border: none;
+}
+
+.input-vid {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 15px;
+    font-family: 'Alata', sans-serif;
+    background-color: #696df6;
+    border-radius: 10px;
+}
+
+.input select {
+    border-radius: 12px;
+    width: 400px;
+    height: 57px;
+    font-size: 30px;
+    font-family: 'Alata', sans-serif;
+    outline: none;
+    border: none;
+}
+
+.form label {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 30px;
+    font-family: 'Alata', sans-serif;
+    color: #696df6;
+    line-height: 20px;
+    margin-right: 10px;
+}
+
+.cadastrarBtn2 {
+    min-width: 400px;
+    max-width: 650px;
+    height: 57px;
+    border-radius: 12px;
+    background-color: #16CA5E;
+    font-size: 36px;
+    font-family: 'Alata', sans-serif;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.cadastrarBtn2:hover {
+    cursor: pointer;
+    background-color: green;
+}
+
+.box-input {
+    margin: 0 auto;
+    display: flex;
+    border-radius: 12px;
+    width: 400px;
+    height: 57px;
+    font-size: 30px;
+    font-family: 'Alata', sans-serif;
+    outline: none;
+    border: none;
+    background-color: #FFFFFF;
+    text-align: right;
+    align-items: center;
+}
+
+.box-input-config {
+    display: flex;
+    border-radius: 12px;
+    width: 200px;
+    height: 180px;
+    font-size: 30px;
+    font-family: 'Alata', sans-serif;
+    outline: none;
+    border: none;
+    background-color: #FFFFFF;
+    text-align: right;
+    align-items: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+.box-icon {
+    flex: 1;
+}
+
+.box-choice {
+    cursor: pointer;
+    text-align: left;
+    flex: 1;
+}
+
+.box-icon:hover {
+    cursor: pointer;
+}
+
+.red-star { color: red;}
+
+.box-dialog {
+    font-family: 'Alata', sans-serif;
+}
